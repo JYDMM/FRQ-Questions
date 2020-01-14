@@ -41,9 +41,9 @@ public class ComplexNumber {
         return new ComplexNumber(this.A() + toBeAdded.A(), this.B() + toBeAdded.B());
     }
 
-    public static ComplexNumber mult(ComplexNumber first, ComplexNumber second) {
-        return new ComplexNumber(first.A() * second.A() - first.B() * second.B(),
-                first.A() * second.B() + first.B() * second.A());
+    public ComplexNumber mult(ComplexNumber toBeMultiplied) {
+        return new ComplexNumber(this.A() * toBeMultiplied.A() - this.B() * toBeMultiplied.B(),
+                this.A() * toBeMultiplied.B() + this.B() * toBeMultiplied.A());
     }
 
 

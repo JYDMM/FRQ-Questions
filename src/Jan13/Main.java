@@ -20,4 +20,9 @@ public class Main {
      - The add does adding
      - we get the rest
      */
+    public static void main(String[] args) {
+        ComplexNumber test = new ComplexNumber(1, 5);
+        ComplexNumber testAdd = test.mult(new ComplexNumber(1,4));
+        System.out.println(testAdd.A() + " " + testAdd.B());
+    }
 }
