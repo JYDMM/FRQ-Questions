@@ -1,4 +1,5 @@
-package Jan13;
+package January.Jan13;
+import January.Jan13.*;
 
 public class Main {
     /*
@@ -22,7 +23,7 @@ public class Main {
      */
     public static void main(String[] args) {
         ComplexNumber test = new ComplexNumber(1, 5);
-        ComplexNumber testAdd = test.mult(new ComplexNumber(1,4));
-        System.out.println(testAdd.A() + " " + testAdd.B());
+        //ComplexNumber testAdd = test.mult(new ComplexNumber(1,4));
+        //System.out.println(testAdd.A() + " " + testAdd.B());
     }
 }

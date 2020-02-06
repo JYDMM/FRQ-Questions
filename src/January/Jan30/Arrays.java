@@ -1,4 +1,4 @@
-package Jan30;
+package January.Jan30;
 
 public class Arrays {
     public static void main(String[] args) {

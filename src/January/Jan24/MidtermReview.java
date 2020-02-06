@@ -1,4 +1,4 @@
-package Jan24;
+package January.Jan24;
 
 public class MidtermReview {
     public static void main(String[] args) {
