@@ -1,4 +1,4 @@
-package Feb6;
+package February.Feb6;
 
 public class ForLoop {
     public static void main(String[] args) {

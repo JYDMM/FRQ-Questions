@@ -1,4 +1,4 @@
-package Feb3;
+package February.Feb3;
 
 public class ArrayMean {
     public static void main(String[] args) {
